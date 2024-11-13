@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <meta name="keywords" content="html, css" />
+    <meta name="author" content="Triple Ten" />
   </head>
   <body>
     <div class="page">
@@ -25,7 +26,7 @@
               >
             </li>
             <li>
-              <a class="nav__link" href="#">Eventos</a>
+              <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
               <a class="nav__link" href="#">Conviértete en miembro</a>
@@ -132,7 +133,7 @@
             </li>
           </ul>
         </section>
-        <section class="events">
+        <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Próximos eventos:</h2>
             <h3 class="events__title">
@@ -169,12 +170,52 @@
             </p>
             <a href="#" class="events__more">Más eventos &rarr;</a>
           </div>
-          <div class="event__cover">
+          <div class="events__cover">
             <img
               src="./images/cafe.png"
               alt="Cafetería-workshop"
               class="events__image"
             />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Joan Feynman"
+                class="person__image person__image_size_l"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Margaret Burbidge"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_canon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Annie Jump Canon"
+                class="person__image person__image_size_s"
+              />
+              <p class="person__caption">Annie Jump Canon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Maria Mitchell"
+                class="person__image person__image_size_s"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Jill Tarter"
+                class="person__image person__image_size_m"
+              />
+            </div>
           </div>
           <!-- Comienza a crear la composición aquí -->
         </section>
