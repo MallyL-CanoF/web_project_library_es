@@ -339,7 +339,6 @@
 }
 
 .footer__columns {
-  border: solid 4px yellow;
   display: flex;
   column-gap: 80px;
 }
