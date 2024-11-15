@@ -340,7 +340,6 @@
 
 .footer__columns {
   display: flex;
-  column-gap: 80px;
 }
 
 .footer__column_content_hours {
@@ -350,6 +349,7 @@
 
 .footer__column_content_social {
   font-size: smaller;
+  margin-left: 80px;
 }
 
 .footer__logo {
